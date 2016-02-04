@@ -1,0 +1,24 @@
+{
+  "name": "gidgets",
+  "version": "0.1.0",
+  "description": "Github widget components",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moschan/gidgets.git"
+  },
+  "keywords": [
+    "Github",
+    "github",
+    "widget"
+  ],
+  "author": "moschan <kota.frsw＠gmail.com> (http://moschan.com/blog)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moschan/gidgets/issues"
+  },
+  "homepage": "https://github.com/moschan/gidgets#readme"
+}
