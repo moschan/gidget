@@ -4,7 +4,8 @@
   "description": "Github widget components",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "build": "browserify index.js -t babelify -o ./example/js/gidgets.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/moschan/gidgets/issues"
   },
-  "homepage": "https://github.com/moschan/gidgets#readme"
+  "homepage": "https://github.com/moschan/gidgets#readme",
+  "devDependencies": {
+    "babel": "^6.5.1",
+    "babel-preset-es2015": "^6.5.0",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "standard": "^6.0.4"
+  }
 }
