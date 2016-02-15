@@ -1,2 +1,2 @@
-# gidgets
+# gidget
 Github widget components
