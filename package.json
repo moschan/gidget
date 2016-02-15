@@ -33,6 +33,7 @@
     "extract-text-webpack-plugin": "^1.0.1",
     "standard": "^6.0.4",
     "style-loader": "^0.13.0",
-    "webpack": "^1.12.13"
+    "webpack": "^1.12.13",
+    "webpack-dev-server": "^1.14.1"
   }
 }

@@ -1,3 +1,5 @@
-import Gidgets from './lib/Gidgets.js'
-export default Gidgets
+import Gidget from './lib/Gidget.js'
+export default Gidget
+
+console.log('hello, inx')
 
