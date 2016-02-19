@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "npm test",
-    "build": "browserify index.js -t babelify -o ./example/js/gidgets.js"
+    "build": "browserify index.js -t babelify -o ./example/js/gidgets.js",
+    "start": "webpack-dev-server --content-base example/"
   },
   "repository": {
     "type": "git",
