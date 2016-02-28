@@ -1,3 +1,13 @@
+:root {
+  --bgColor: #fafafa;
+  --baseColor: #1E3037;
+  --primaryColor: #1DAFD0;
+  --accentColor: #F61453;
+}
+
+p { margin: 0; }
+div { box-sizing: border-box; }
+
 .gidget {
   width: 100%;
   height: 100%;
@@ -8,13 +18,49 @@
   border-radius: 3px;
   font-size: .8em;
   font-family:Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
-  background: #fafafa;
-  border-width: 1px solid #bababa;
+  background: var(--bgColor);
+  border: 1px solid var(--baseColor);
   overflow: hidden;
+}
+
+
+.defaultPadding {
+  padding: .5em;
+}
+
+.header {
+  composes: defaultPadding;
+  height: 1em;
+  background: var(--baseColor)
+}
+
+.header > * {
+  line-height: 1em;
+}
+
+.name {
+  color: var(--bgColor);
+}
+
+.upperBody {
+  composes: defaultPadding;
+  background: var(--primaryColor)
+}
+
+.body {
+  composes: defaultPadding;
+  background: var(--bgColor)
+}
+
+.footer {
+  composes: defaultPadding;
+  height: 1em;
+  background: var(--baseColor)
 }
 
 .name { }
 .profileImg {
   width: 75px;
   border-radius: 50%;
+  border: 2px solid var(--baseColor);
 }
